@@ -21,8 +21,8 @@ function Movies() {
     };
 
     return (
-        <div className="p-4">
-            <div className="mb-4 flex gap-4">
+        <div className="p-10">
+            <div className="mb-4 flex gap-5">
                 <button
                     onClick={() => sortMovies('asc')}
                     className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600"
@@ -37,7 +37,7 @@ function Movies() {
                 </button>
             </div>
 
-            <div className="flex flex-wrap gap-4">
+            <div className="flex flex-wrap gap-20">
                 {movies.map((movie, index) => (
                     <div key={index} className="max-w-sm w-full bg-white rounded-lg shadow-md overflow-hidden">
                         <img className="w-full h-48 object-cover" src={movie.image} alt={movie.movie_title} />

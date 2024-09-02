@@ -112,6 +112,10 @@ function SignUp() {
                     >
                         Signup
                     </button>
+
+                    <button className="w-full mt-4 bg-green-500 text-white py-2 rounded-lg" onClick={() => navigate("/log-in")}>
+                        Login
+                    </button>
                 </form>
             </div>
         </div>
