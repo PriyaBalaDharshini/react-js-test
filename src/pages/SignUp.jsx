@@ -4,9 +4,6 @@ import { toast } from 'react-toastify';
 
 function SignUp() {
     const navigate = useNavigate()
-
-
-
     const [formData, setFormData] = useState({
         name: "",
         password: "",
